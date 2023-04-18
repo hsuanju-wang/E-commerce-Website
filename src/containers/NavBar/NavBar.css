@@ -1,0 +1,29 @@
+.nav-menu, .nav-menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-menu > ul{
+    border-top: 1px solid rgb(216, 214, 214);
+    border-bottom: 1px solid rgb(216, 214, 214);
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-menu  a {
+    margin: 1em 3em;
+    display: block;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #c51230;
+    font-family: Catamaran;
+    border-bottom: 5px solid white;
+    transition: 0.3s;
+    
+}  
+
+.nav-menu a:hover {
+    border-bottom: 5px solid #c51230;
+}  

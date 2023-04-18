@@ -1,0 +1,88 @@
+.products-section h1{
+    font-family: Catamaran;
+    font-weight:normal;
+    font-size: 40px;
+    margin: 0;
+    vertical-align:middle;
+    margin-bottom: 25px;
+}
+
+.product-container{
+    text-align: left;
+    background-color: white;
+    padding: 3% 10%; 
+    overflow: hidden;
+}
+
+
+.product-box{
+    text-align: left;
+    width:320px;
+    border: 2px #993036 solid;
+    border-radius: 10px;
+    float: left;
+    margin: 0% 2% 3% 3%;
+
+}
+
+.product-box img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-name{
+    color: #993036;
+    font-family: Catamaran-light;
+    font-weight:normal;
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.product-color{
+    color:rgb(128, 128, 128);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:normal;
+    padding-left: 20px;
+}
+
+.product-btn-div{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    margin-bottom: 8%;
+}
+
+.product-btn{
+    background-color: #993036;
+    border: #993036;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.product-btn > a{
+    text-decoration: none;
+    color: rgb(177, 175, 175);
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    transition: 0.8s;
+}
+
+.product-btn > a:hover{
+    color: white;
+}
+
+.product-btn > p{
+    color: white;
+    color: rgb(177, 175, 175);
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    transition: 0.8s;
+}
+
+.product-btn > p:hover{
+    color: white;
+    cursor: pointer;
+}

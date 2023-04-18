@@ -1,0 +1,82 @@
+#product-detail-container{
+    display: flex;
+}
+
+#product-detail-container > img{
+    width: 35%;
+}
+
+#product-detail-content{
+    width: 65%;
+    padding-left: 5%;
+    font-family: Catamaran;
+}
+
+#price{
+    color: #993036;
+    font-weight: normal;
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#product-description{
+    color: #993036;
+    margin-top: 0;
+}
+
+.product-detail-btns{
+    display: flex;
+    vertical-align: middle;
+    margin-top: 3%;
+}
+
+.product-detail-btns > p{
+    color: grey;
+    margin: 0;
+    padding: 1%;
+}
+
+#color-btns-div{
+    color: black;
+}
+
+#side-btns{
+    color: rgb(177, 175, 175);
+}
+
+.product-detail-btns > div{
+    margin-left: 3%;
+    padding: 1% 3%;
+    background-color: #993036;
+    border: 1px #993036 solid;
+    border-radius: 5px;
+    font-weight: lighter;
+    transition: 0.8s;
+}
+
+.product-detail-btns > div:hover{
+    color: white;
+    cursor: pointer;
+}
+
+select {
+    margin-left: 3%;
+    padding: 1% 3%;
+    border: 1px #993036 solid;
+    border-radius: 5px;
+    font-weight: lighter;  
+}
+
+#addToCart-div{
+    color: rgb(177, 175, 175);
+}
+
+.greyOutBtn{
+    background-color: grey !important;
+}
+
+.greyOutBtn:hover{
+    cursor: default !important;
+    color: rgb(177, 175, 175) !important;
+}

@@ -1,0 +1,32 @@
+.logInContainer{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.logInBtn{
+    width: 200px;
+    padding: 3px 2px;
+    background-color: white;
+    border: none;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.logInBtn:hover{
+    background-color: rgb(231, 231, 231);
+}
+
+.logInBtn img{
+    width : 20%;
+    display: inline;
+    vertical-align: middle;
+}
+
+.logInBtn p{
+    display:inline;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.hide{
+    display: none;
+}

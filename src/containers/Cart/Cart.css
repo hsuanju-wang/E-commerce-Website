@@ -1,0 +1,189 @@
+.cart-product-div{
+    /* float: left; */
+    width: 60%;
+    padding-right: 5%;
+}
+
+#cartEmptyTxt{
+    font-weight: 200;
+    font-size: 32px;
+}
+
+.cart-content-box{
+    display: flex;
+}
+
+.cart-product-box{
+    border-top: 1px #c0232b solid;
+    overflow: hidden;
+}
+
+.cart-product-name{
+   font-weight: 200;
+   font-size: 28px;
+}
+
+.cart-product-img{
+    float: left;
+    width: 40%;
+    margin-right: 5%;
+}
+
+.cart-button{
+    margin-left: 7%;
+    padding: 4% 5%;
+    background-color: #c0232b;
+    border: 1px #c0232b solid;
+    border-radius: 5px;
+    font-weight: 300;
+    transition: 0.8s;
+    color: rgb(208, 208, 208);
+    font-size: 14px;
+    text-align: center;
+}
+
+.cart-product-button{
+    width: 20%;
+}
+
+.cart-button:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.cart-detail-content{
+    overflow: hidden;
+    position: relative;
+    /* vertical-align: middle;  */
+}
+
+.cart-detail-box{
+    overflow: hidden; 
+    vertical-align: middle; 
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 45%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.cart-detail{
+    overflow: hidden;
+    margin: 5%;
+}
+
+.cart-detail p{
+    float: left;
+    color: grey;
+    margin: 0;
+    padding: 1%;
+    font-size: 14px;
+}
+
+select {
+    margin-left: 3%;
+    padding: 2% 3%;
+    border: 1px #c0232b solid;
+    border-radius: 5px;
+    font-weight: lighter;  
+}
+
+.price{
+    color: #c0232b !important;
+}
+
+.summary-div{
+    overflow: hidden;
+    width: 35%;
+}
+
+.summary-box{
+    width: 94%;
+    border: 2px #c0232b solid;
+    border-radius: 5px;
+    padding: 4% 2%;
+    overflow: hidden;
+    margin-bottom: 10%;
+}
+
+.summary-box h2{
+    margin: 0;
+    font-weight: 500;
+}
+
+.summary-detail-box{
+    margin: 8% 0;
+}
+
+.summary-detail{
+    overflow: hidden;
+}
+
+.summary-detail p{
+    margin: 1%;
+}
+
+.summary-detail-title{
+    float: left;
+    color: grey;
+    font-weight: 500;
+}
+
+.summary-detail-number{
+    float: right; 
+    color: #c0232b;
+    font-weight: 500;
+}
+
+.summary-total{
+    float: left;
+    color: grey;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.summary-total-number{
+    float: right; 
+    color: #c0232b;
+    font-weight: 500;
+    font-size: 20px;
+    border-top: 1px #c0232b solid;
+}
+
+.summary-button{
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.summary-bottom-div{
+    width: 100%;
+    overflow: hidden;
+}
+
+.baseshirtImg2{
+    width: 40%;
+    background-color: rgb(229, 229, 229);
+    padding: 10px 2px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.onShirt-Img2{
+    width:18%;
+    margin: 10px;
+    height: 100px;
+    background-color: rgb(243, 243, 243);
+    object-fit: contain;
+    position: absolute;
+    top: 23%;
+    left: 10%;
+}
+
+
+.shirtImgBox2{
+    position: relative;
+    width: 40%;
+}

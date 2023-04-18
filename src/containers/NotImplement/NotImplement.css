@@ -1,0 +1,9 @@
+.not-imp-content > img{
+    opacity: 0.5;
+}
+
+.not-imp-content > p{
+    color: rgb(159, 158, 158);
+    font-family: Catamaran;
+    font-size: 22px;
+}
