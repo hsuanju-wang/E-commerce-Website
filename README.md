@@ -13,4 +13,4 @@ to install all the packages used in the project
 
 ### `npm start`
 
-to run the projects
+to run the project
